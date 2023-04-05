@@ -1,7 +1,7 @@
 #!/bin/bash
 # GPLv3 License
 # Authors: pdolinic, GPT-4
-# Info: 1. Add your Tooling into in the cases. 2. Adjust attack_count to your needs
+# Info: 1. Add your Tooling into in the cases. 2. Adjust a) attack_count b) timeout c) sleep to your needs.
 
 if [ "$#" -ne 2 ]; then
     echo "Usage: $0 <ip1> <ip2>"
